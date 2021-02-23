@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="kor">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" href="demo1.css">   
+    <link rel ="stylesheet" href="default.css">
+    <!--<link rel ="stylesheet" href="jquery.js">-->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <title>Demo</title>
+</head>
+<body>
+    <!--top menu-->
+    <header class="top_menu">
+        <div><p>overview</p></div>          
+        <div class="top box"></div>
+        <div class="top dropdown"></div>
+        <div class="top logout"></div>
+        <div class="top printbox"></div>
+        <div class="top helpbox"></div>
+        <div class="top logo"></div>
+    </header>
+
+
+    <!--data section-->
+    <div class="container">
+
+        <section class="top_tab_menu">
+            <ul class="tabs">
+                <li class="tab-link current" data-tab="tab1"><a href="#"></a>Main</li>
+                <li class="tab-link" data-tab="tab2"><a href="#"></a>Administration</li>
+                <li class="tab-link" data-tab="tab3"><a href="#"></a>Monitoring</li>
+            </ul>
+
+            <div class="tablenav">
+                <div class="dropdown">
+                    <button onclick="dp_menu()" class="dpbutton">Menu<div class="arrow_down"></div></button>
+                        <div style="display: none;" id="drop-content">
+                            <a href='#'><div class="triangle-border"></div>Test</a>
+                            <a href='#'><div class="triangle-border"></div>Interview</a>
+                            <a href='#'><div class="triangle-border"></div>Priority</a>
+                            <a href='#'><div class="triangle-border"></div>Demographics</a>
+                            <a href='#'><div class="triangle-border"></div>Users</a>
+                            <a href='#'><div class="triangle-border"></div>Patient management</a>
+                            <a href='#'><div class="triangle-border"></div>Order entry</a>
+                            <a href='#'><div class="triangle-border"></div>Worklists</a>
+                            <a href='#'><div class="triangle-border"></div>Comments</a>
+                            <a href='#'><div class="triangle-border"></div>Validation</a>
+                            <a href='#'><div class="triangle-border"></div>Work areas</a>
+                            <a href='#'><div class="triangle-border"></div>Reports</a>
+                            <a href='#'><div class="triangle-border"></div>Labels</a>
+                            <a href='#'><div class="triangle-border"></div>Epidemological record</a>
+                            <a href='#'><div class="triangle-border"></div>General</a>
+                            <a href='#'><div class="triangle-border"></div>UrinAnalysis</a>
+                            <a href='#'><div class="triangle-border"></div>Alarmsn</a>
+                            <a href='#'><div class="triangle-border"></div>Rute engine</a>
+                            <a href='#'><div class="triangle-border"></div>Networks</a>
+                            <a href='#'><div class="triangle-border"></div>HCA</a>
+                            <a href='#'><div class="triangle-border"></div>ICA</a>
+                            <a href='#'><div class="triangle-border"></div>Import/export</a>
+                            <a href='#'><div class="triangle-border"></div>Optical reader</a>
+                            <a href='#'><div class="triangle-border"></div>QC</a>
+                            <a href='#'><div class="triangle-border"></div>Average of normals</a>
+                            <a href='#'><div class="triangle-border"></div>LDAP</a>
+                        </div>
+                </div>
+            </div>
+
+            <div id="tab1" class="tab-content current">
+                <div>
+                <table  class="tableresult">
+                    <colgroup>
+                        <col width="1000px"/>
+                        <col width="11%"/>
+                        <col width="11%"/>
+                        <col width="11%"/>
+                        <col width="12%"/>
+                        <col width="11%"/>
+                        <col width="11%"/>
+                        <col width="11%"/>
+                        <col width="11%"/>
+                    </colgroup>
+                    <thead>
+                    <tr>
+                        <th>Test ID</th>
+                        <th>Abbreviation</th>
+                        <th>Test name</th>
+                        <th>Test type</th>
+                        <th>*Date</th>
+                        <th>Table</th>
+                        <th>Order</th>
+                        <th>*Status</th>
+                        <th>Current</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>407</td>
+                        <td>PRP</td>
+                        <td>PRP</td>
+                        <td>Regular test</td>
+                        <td>15/02/2021</td>
+                        <td>EDTA</td>
+                        <td> </td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                    </tr>
+                    <tr>
+                        <td>407</td>
+                        <td>PRP</td>
+                        <td>PRP</td>
+                        <td>Regular test</td>
+                        <td>15/02/2021</td>
+                        <td>EDTA</td>
+                        <td> </td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                    </tr>
+                    </tbody>
+                </table>
+                </div>
+            </div>
+            <div id="tab2" class="tab-content">2</div>
+            <div id="tab3" class="tab-content">3</div>
+        </section>
+
+
+    <!--page button section-->    
+        <section class="button">
+            <div class="arr move"></div>
+            <p>page</p>
+            <div id="currenpage"></div>
+            <div id="totalpage"></div>
+            <div id="records">records</div>
+            <div class="button dropdown">
+                <div id="testreference"></div>
+                <div id="add"></div>
+                <div id="disablee"></div>
+                <div id="filter"></div>
+            </div>
+        </section>
+
+
+    <!--bottom select section-->    
+        <section class="bottom_tab_menu">
+          <ul class="tabs">
+                <li class="tab-link current1" data-tabb="tab1"><a href="#"></a>Main</li>
+                <li class="tab-link" data-tabb="tab2"><a href="#"></a>Administration</li>
+                <li class="tab-link" data-tabb="tab3"><a href="#"></a>Monitoring</li>
+            </ul>
+        </section>
+    </div>
+
+
+    <!--submit button-->
+    <footer class="footer">
+        <div id="submit_btn"></div>
+    </footer>
+
+
+    <nav class="side_bar"></nav>
+
+
+
+
+
+     <script src ="demo1.js"></script>
+</body>
+</html>
