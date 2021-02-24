@@ -796,7 +796,7 @@ ul.tabs li.current {
 .dropdown_box7 {
     width: 150px;
     height: 30px;
-    border : 1px solid black;
+   
     border-radius: 5px;
     margin-left: 10px;
     margin-right : 5px;
@@ -832,6 +832,11 @@ ul.tabs li.current {
     margin-top: -26px;
 
 }
+
+#pstyle2 {
+      text-align: middle;
+      margin-left: 40px;
+ }
 
 .icon_logout {
     width:30px;
@@ -905,7 +910,7 @@ ul.tabs li.current {
          margin-left: 5px;
          margin-top : 3px;
          background: url("./img/checkcircle.svg") no-repeat top left;
-          opacity: 0.3;
+          opacity: 0.7;
     }
 
     .icon_asterisk {
@@ -936,6 +941,13 @@ ul.tabs li.current {
         background: url("./img/cancel.svg") no-repeat top left;
         opacity: 0.7;
    
+     }
+
+     .justify{
+         display:flex;
+         flex-direction:row-reverse;
+
+        
      }
 
 
