@@ -13,13 +13,43 @@
 <body>
     <!--top menu-->
     <header class="top_menu">
-        <div><p>overview</p></div>          
-        <div class="top box"></div>
-        <div class="top dropdown"></div>
-        <div class="top logout"></div>
-        <div class="top printbox"></div>
-        <div class="top helpbox"></div>
-        <div class="top logo"></div>
+        <div class="top_menu1">
+            <table>
+            <colgroup>
+                <col width="10px" />
+                <col width="90px" />
+                <col width="10px" />
+                <col width="10px" />
+                <col width="10px" />
+                <col width="50px" />
+                <col width="10px" />
+                <col width="10px" />
+                <col width="1800px" />
+                <col width="100px" />
+                <col width="10px" />
+                <col width="40px" />
+                
+            </colgroup>
+            <tr>
+                <td><div class="triangle-border"></div></td>
+                <td>Overview</td>
+                <td><div class="icon_squarefull"></div></td>
+                <td><div class="icon_squarefull"></div></td>
+                <td><div class="icon_squarefull"></div></td>
+                <td><div class="dropdown_box1"><div class="button_squaredownarrow"></div></td>
+                <td style="padding-left:10px;"><div class="triangle-border"></div></td>
+                <td>Roche</td>
+                <td><div class="dropdown_box2"><div class="icon_logout"></div><div id="pstyle">&nbsp; Log off</div></td>
+                <td></td>
+                <td><div class="button_print"></div></td>
+                <td><div class="button_squaredownarrow1"></div></td>
+                <td><div class="button_question"></div></td>
+                                 
+                
+            </tr>
+        </table>
+           
+        </div>
     </header>
 
 
@@ -28,47 +58,70 @@
 
         <section class="top_tab_menu">
             <ul class="tabs">
-                <li class="tab-link current" data-tab="tab1"><a href="#"></a>Main</li>
-                <li class="tab-link" data-tab="tab2"><a href="#"></a>Administration</li>
-                <li class="tab-link" data-tab="tab3"><a href="#"></a>Monitoring</li>
+                <li class="tab-link current" data-tab="tab1"><a href="#tab1"></a><div class="icon_flask"></div>Main</li>
+                <li class="tab-link" data-tab="tab2"><a href="#tab2"></a><div class="icon_tools "></div>Administration</li>
+                <li class="tab-link" data-tab="tab3"><a href="#tab3"></a><div class="icon_monitoring"></div>Monitoring</li>
             </ul>
 
-            <div class="tablenav">
-                <div class="dropdown">
-                    <button onclick="dp_menu()" class="dpbutton">Menu<div class="arrow_down"></div></button>
-                        <div style="display: none;" id="drop-content">
-                            <a href='#'><div class="triangle-border"></div>Test</a>
-                            <a href='#'><div class="triangle-border"></div>Interview</a>
-                            <a href='#'><div class="triangle-border"></div>Priority</a>
-                            <a href='#'><div class="triangle-border"></div>Demographics</a>
-                            <a href='#'><div class="triangle-border"></div>Users</a>
-                            <a href='#'><div class="triangle-border"></div>Patient management</a>
-                            <a href='#'><div class="triangle-border"></div>Order entry</a>
-                            <a href='#'><div class="triangle-border"></div>Worklists</a>
-                            <a href='#'><div class="triangle-border"></div>Comments</a>
-                            <a href='#'><div class="triangle-border"></div>Validation</a>
-                            <a href='#'><div class="triangle-border"></div>Work areas</a>
-                            <a href='#'><div class="triangle-border"></div>Reports</a>
-                            <a href='#'><div class="triangle-border"></div>Labels</a>
-                            <a href='#'><div class="triangle-border"></div>Epidemological record</a>
-                            <a href='#'><div class="triangle-border"></div>General</a>
-                            <a href='#'><div class="triangle-border"></div>UrinAnalysis</a>
-                            <a href='#'><div class="triangle-border"></div>Alarmsn</a>
-                            <a href='#'><div class="triangle-border"></div>Rute engine</a>
-                            <a href='#'><div class="triangle-border"></div>Networks</a>
-                            <a href='#'><div class="triangle-border"></div>HCA</a>
-                            <a href='#'><div class="triangle-border"></div>ICA</a>
-                            <a href='#'><div class="triangle-border"></div>Import/export</a>
-                            <a href='#'><div class="triangle-border"></div>Optical reader</a>
-                            <a href='#'><div class="triangle-border"></div>QC</a>
-                            <a href='#'><div class="triangle-border"></div>Average of normals</a>
-                            <a href='#'><div class="triangle-border"></div>LDAP</a>
-                        </div>
-                </div>
-            </div>
+           
+
+
+        
 
             <div id="tab1" class="tab-content current">
-                <div>
+
+                <div class="tablenav">
+                   
+                    <div class="dropdown">
+                
+                        <table>
+                            <tr>
+                                <td>
+                        <button onclick="dp_menu()" class="dpbutton">Menu<div class="arrow_down"></div></button>
+                            <div style="display: none;" id="drop-content">
+                                <a href='#'><div class="triangle-border"></div>Test</a>
+                                <a href='#'><div class="triangle-border"></div>Interview</a>
+                                <a href='#'><div class="triangle-border"></div>Priority</a>
+                                <a href='#'><div class="triangle-border"></div>Demographics</a>
+                                <a href='#'><div class="triangle-border"></div>Users</a>
+                                <a href='#'><div class="triangle-border"></div>Patient management</a>
+                                <a href='#'><div class="triangle-border"></div>Order entry</a>
+                                <a href='#'><div class="triangle-border"></div>Worklists</a>
+                                <a href='#'><div class="triangle-border"></div>Comments</a>
+                                <a href='#'><div class="triangle-border"></div>Validation</a>
+                                <a href='#'><div class="triangle-border"></div>Work areas</a>
+                                <a href='#'><div class="triangle-border"></div>Reports</a>
+                                <a href='#'><div class="triangle-border"></div>Labels</a>
+                                <a href='#'><div class="triangle-border"></div>Epidemological record</a>
+                                <a href='#'><div class="triangle-border"></div>General</a>
+                                <a href='#'><div class="triangle-border"></div>UrinAnalysis</a>
+                                <a href='#'><div class="triangle-border"></div>Alarmsn</a>
+                                <a href='#'><div class="triangle-border"></div>Rute engine</a>
+                                <a href='#'><div class="triangle-border"></div>Networks</a>
+                                <a href='#'><div class="triangle-border"></div>HCA</a>
+                                <a href='#'><div class="triangle-border"></div>ICA</a>
+                                <a href='#'><div class="triangle-border"></div>Import/export</a>
+                                <a href='#'><div class="triangle-border"></div>Optical reader</a>
+                                <a href='#'><div class="triangle-border"></div>QC</a>
+                                <a href='#'><div class="triangle-border"></div>Average of normals</a>
+                                <a href='#'><div class="triangle-border"></div>LDAP</a>
+                            </div>
+                            </td>
+                            <td><div class="dropdown_box3"><div class="button_arrowleft"></div></div></td>
+                            <td><div class="dropdown_box3"><div class="button_arrowright"></div></div></td>
+                            <td><div class="dropdown_box3"><div class="buttons_star"></div></td>
+                            <td><div class="button_squatri">&nbsp; Test/Tests</div></td>
+                        </tr>
+                        </table>
+                    </div>
+                    
+    
+                </div>
+
+                 <div>
+                     <hr>
+                 </div>
+                <div class="tablesection">
                 <table  class="tableresult">
                     <colgroup>
                         <col width="1000px"/>
@@ -82,86 +135,487 @@
                         <col width="11%"/>
                     </colgroup>
                     <thead>
-                    <tr>
-                        <th>Test ID</th>
-                        <th>Abbreviation</th>
-                        <th>Test name</th>
-                        <th>Test type</th>
-                        <th>*Date</th>
-                        <th>Table</th>
-                        <th>Order</th>
-                        <th>*Status</th>
-                        <th>Current</th>
-                    </tr>
+                        <tr>
+                            <th>Test ID</th>
+                            <th>Abbreviation</th>
+                            <th>Test name</th>
+                            <th>Test type</th>
+                            <th>*Date</th>
+                            <th>Table</th>
+                            <th>Order</th>
+                            <th>*Status</th>
+                            <th>Current</th>
+                        </tr>
                     </thead>
                     <tbody>
-                    <tr>
-                        <td>407</td>
-                        <td>PRP</td>
-                        <td>PRP</td>
-                        <td>Regular test</td>
-                        <td>15/02/2021</td>
-                        <td>EDTA</td>
-                        <td> </td>
-                        <td><input type="checkbox"></td>
-                        <td><input type="checkbox"></td>
-                    </tr>
-                    <tr>
-                        <td>407</td>
-                        <td>PRP</td>
-                        <td>PRP</td>
-                        <td>Regular test</td>
-                        <td>15/02/2021</td>
-                        <td>EDTA</td>
-                        <td> </td>
-                        <td><input type="checkbox"></td>
-                        <td><input type="checkbox"></td>
-                    </tr>
+                        <tr>
+                            <td>407</td>
+                            <td>PRP</td>
+                            <td>PRP</td>
+                            <td>Regular test</td>
+                            <td>15/02/2021</td>
+                            <td>EDTA</td>
+                            <td> </td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td>407</td>
+                            <td>PRP</td>
+                            <td>PRP</td>
+                            <td>Regular test</td>
+                            <td>15/02/2021</td>
+                            <td>EDTA</td>
+                            <td> </td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td>407</td>
+                            <td>PRP</td>
+                            <td>PRP</td>
+                            <td>Regular test</td>
+                            <td>15/02/2021</td>
+                            <td>EDTA</td>
+                            <td> </td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td>407</td>
+                            <td>PRP</td>
+                            <td>PRP</td>
+                            <td>Regular test</td>
+                            <td>15/02/2021</td>
+                            <td>EDTA</td>
+                            <td> </td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td>407</td>
+                            <td>PRP</td>
+                            <td>PRP</td>
+                            <td>Regular test</td>
+                            <td>15/02/2021</td>
+                            <td>EDTA</td>
+                            <td> </td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td>407</td>
+                            <td>PRP</td>
+                            <td>PRP</td>
+                            <td>Regular test</td>
+                            <td>15/02/2021</td>
+                            <td>EDTA</td>
+                            <td> </td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td>407</td>
+                            <td>PRP</td>
+                            <td>PRP</td>
+                            <td>Regular test</td>
+                            <td>15/02/2021</td>
+                            <td>EDTA</td>
+                            <td> </td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+
+                        <tr>
+                            <td>407</td>
+                            <td>PRP</td>
+                            <td>PRP</td>
+                            <td>Regular test</td>
+                            <td>15/02/2021</td>
+                            <td>EDTA</td>
+                            <td> </td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td>407</td>
+                            <td>PRP</td>
+                            <td>PRP</td>
+                            <td>Regular test</td>
+                            <td>15/02/2021</td>
+                            <td>EDTA</td>
+                            <td> </td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td>407</td>
+                            <td>PRP</td>
+                            <td>PRP</td>
+                            <td>Regular test</td>
+                            <td>15/02/2021</td>
+                            <td>EDTA</td>
+                            <td> </td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td>407</td>
+                            <td>PRP</td>
+                            <td>PRP</td>
+                            <td>Regular test</td>
+                            <td>15/02/2021</td>
+                            <td>EDTA</td>
+                            <td> </td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td>407</td>
+                            <td>PRP</td>
+                            <td>PRP</td>
+                            <td>Regular test</td>
+                            <td>15/02/2021</td>
+                            <td>EDTA</td>
+                            <td> </td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td>407</td>
+                            <td>PRP</td>
+                            <td>PRP</td>
+                            <td>Regular test</td>
+                            <td>15/02/2021</td>
+                            <td>EDTA</td>
+                            <td> </td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td>407</td>
+                            <td>PRP</td>
+                            <td>PRP</td>
+                            <td>Regular test</td>
+                            <td>15/02/2021</td>
+                            <td>EDTA</td>
+                            <td> </td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td>407</td>
+                            <td>PRP</td>
+                            <td>PRP</td>
+                            <td>Regular test</td>
+                            <td>15/02/2021</td>
+                            <td>EDTA</td>
+                            <td> </td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td>407</td>
+                            <td>PRP</td>
+                            <td>PRP</td>
+                            <td>Regular test</td>
+                            <td>15/02/2021</td>
+                            <td>EDTA</td>
+                            <td> </td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td>407</td>
+                            <td>PRP</td>
+                            <td>PRP</td>
+                            <td>Regular test</td>
+                            <td>15/02/2021</td>
+                            <td>EDTA</td>
+                            <td> </td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td>407</td>
+                            <td>PRP</td>
+                            <td>PRP</td>
+                            <td>Regular test</td>
+                            <td>15/02/2021</td>
+                            <td>EDTA</td>
+                            <td> </td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+
+                        <tr>
+                            <td>407</td>
+                            <td>PRP</td>
+                            <td>PRP</td>
+                            <td>Regular test</td>
+                            <td>15/02/2021</td>
+                            <td>EDTA</td>
+                            <td> </td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td>407</td>
+                            <td>PRP</td>
+                            <td>PRP</td>
+                            <td>Regular test</td>
+                            <td>15/02/2021</td>
+                            <td>EDTA</td>
+                            <td> </td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td>407</td>
+                            <td>PRP</td>
+                            <td>PRP</td>
+                            <td>Regular test</td>
+                            <td>15/02/2021</td>
+                            <td>EDTA</td>
+                            <td> </td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td>407</td>
+                            <td>PRP</td>
+                            <td>PRP</td>
+                            <td>Regular test</td>
+                            <td>15/02/2021</td>
+                            <td>EDTA</td>
+                            <td> </td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+
                     </tbody>
                 </table>
+             
                 </div>
-            </div>
+
+                <!--page button section-->    
+        <section class="button_section">
+            <table>
+                <colgroup>
+                    <col width="10px"/>
+                    <col width="10px" />
+                    <col width="10px" />
+                    <col width="60px" />
+                    <col width="10px" />
+                    <col width="50px" />
+                    <col width="10px" />
+                    <col width="70px" />
+                    <col width="1800px" />
+                    <col width="10px" />
+                    <col width="10px" />
+                    <col width="10px" />
+                    <col width="10px" />
+                </colgroup>
+            <tr>
+                <td><div class="dropdown_box3"><div class="button_angledoubleleft"></div></div></td>
+                <td><div class="dropdown_box3"><div class="button_arrowleft"></div></div></td>
+                <td><div class="dropdown_box3"><div class="button_arrowright"></div></div></td>
+                <td><div class="dropdown_box3"><div class="button_angledoubleright"></div></div></td>
+                <td>page</td>
+                <td><div class="dropdown_box3">&nbsp;6</div></td>
+                <td>of</td>
+                <td><div class="dropdown_box3">&nbsp;7</div></td>
+                <td>records</td>
+                <td></td>
+                <td style="padding-top:10px;"><div class="dropdown_box1"><div class="button_squaredownarrow"></div>
+                </td>
+                <td style="padding-top:10px;">
+                    <div class="dropdown_box2">
+                        <div class="icon_asterisk"></div>
+                        <div id="pstyle1">Add</div>
+                </td>
+                <td style="padding-top:10px;">
+                    <div class="dropdown_box2">
+                        <div class="icon_checkcirlce"></div>
+                        <div id="pstyle1">Disable</div>
+                </td><td style="padding-top:10px;"><div class="dropdown_box2"><div class="icon_searchglass"></div><div id="pstyle1">Filter</div>           
+                </td>
+            </tr>
+        </table>
+
+          
+      
+        </section>
+
+
+     <!--bottom select section-->    
+        <section class="bottom_tab_menu">
+       
+
+
+            <div class="container1">
+
+                <ul class="tab_under">
+                  <li class="on">Detail</li>
+                  <li>Statistics</li>
+                  <li>Results</li>
+                </ul>
+
+
+            <div class="tab_cont">
+                <div class="on">
+                    <table>
+                        <colgroup>
+                            <col width="200px" />
+                            <col width="200px" />
+                            <col width="200px" />
+                            <col width="300px" />
+                            <col width="150px" />
+                            <col width="80px" />
+                  
+                        </colgroup>
+                        <tr>
+                            <td style="padding-left: 10px;">Test ID *</td>
+                            <td style="padding-left: 10px;">Date *</td>
+                            <td style="padding-left: 10px;">Abbreviation *</td>
+                            <td style="padding-left: 10px;">Test name *</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                          <td><div class="dropdown_box1"></div></td> 
+                          <td><div class="dropdown_box1"><div class="button_squaredownarrow"></div></div></td>
+                          <td>
+                              <div class="dropdown_box1"></div>
+                          </td>
+                          <td>
+                              <div class="dropdown_box5"></div>
+                          </td>
+                            <td><input type="checkbox">Printable test</td>
+                            <td></td>
+                        </tr>
+
+                        <tr>
+                            <td style="padding-left: 10px;">Tube *</td>
+                            <td style="padding-left: 10px;">Tube volume (ul)</td>
+                            <td style="padding-left: 10px;">Primary unit</td>
+                            <td style="padding-left: 10px;">Decimals for the primary unit</td>
+                            <td style="padding-left: 10px;">Test priority *</td>
+                            <td></td>
+                            
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="dropdown_box1">
+                                    <div class="button_squaredownarrow"></div>
+                                </div>
+                            </td>
+                            <td><div class="dropdown_box1"></div>
+                            </td>
+                            <td>
+                                <div class="dropdown_box1">
+                                    <div class="button_squaredownarrow"></div>
+                                </div>
+                            </td>
+                             <td>
+                                 <div class="dropdown_box4"></div>
+                             </td>
+                            
+                            <td>
+                                <div class="dropdown_box1">
+                                    <div class="button_squaredownarrow"></div>
+                                </div>
+                            </td>
+
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td style="padding-left: 10px;">Test type * </td>
+                            <td style="padding-left: 10px;">Formula</td>
+                            <td style="padding-left: 10px;">Secondary unit</td>
+                            <td style="padding-left: 10px;">Decimal for the secondary unit</td>
+                            
+                            <td style="padding-left: 10px;">Concurrent tests</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="dropdown_box1">
+                                    <div class="button_squaredownarrow"></div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="dropdown_box1"></div>
+                            </td>
+                            <td>
+                                <div class="dropdown_box1">
+                                    <div class="button_squaredownarrow"></div>
+                                </div>
+                            </td>
+                             <td >
+                                 <div class="dropdown_box4"></div>
+                             </td>
+                            
+                            <td colspan="2" rowspan="3">
+                                <div class="dropdown_box6"></div>
+                            </td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td style="padding-left: 10px;">Delay</td>
+                            <td style="padding-left: 10px;">Catalog ID</td>
+                            <td style="padding-left: 10px;">Factor</td>
+                            <td style="padding-left: 10px;">Order</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="dropdown_box1"></div>
+                            </td>
+                            <td>
+                                <div class="dropdown_box1"></div>
+                            </td>
+                            <td>
+                                <div class="dropdown_box1"></div>
+                            </td>
+                            <td>
+                                <div class="dropdown_box4"></div>
+                            </td>
+                            <td>
+                                <div class="icon_searchglass"></div></td>
+                        </tr>
+               
+                    </table>
+                </div>
+                  
+                <div>
+                    
+                      <div class="dropdown_box7">
+                          <div class="icon_checkcirlce"> Confirm</div>
+                      </div>
+
+                    <div class="dropdown_box7">
+                        <div class="icon_cancel"> Cancel</div>
+                    </div>
+
+
+
+                </div>
+             
+
+              </div>
+
+        </section>
+    </div>
+
             <div id="tab2" class="tab-content">2</div>
             <div id="tab3" class="tab-content">3</div>
-        </section>
-
-
-    <!--page button section-->    
-        <section class="button">
-            <div class="arr move"></div>
-            <p>page</p>
-            <div id="currenpage"></div>
-            <div id="totalpage"></div>
-            <div id="records">records</div>
-            <div class="button dropdown">
-                <div id="testreference"></div>
-                <div id="add"></div>
-                <div id="disablee"></div>
-                <div id="filter"></div>
-            </div>
-        </section>
-
-
-    <!--bottom select section-->    
-        <section class="bottom_tab_menu">
-          <ul class="tabs">
-                <li class="tab-link current1" data-tabb="tab1"><a href="#"></a>Main</li>
-                <li class="tab-link" data-tabb="tab2"><a href="#"></a>Administration</li>
-                <li class="tab-link" data-tabb="tab3"><a href="#"></a>Monitoring</li>
-            </ul>
         </section>
     </div>
 
 
     <!--submit button-->
-    <footer class="footer">
-        <div id="submit_btn"></div>
-    </footer>
-
-
-    <nav class="side_bar"></nav>
-
-
 
 
 

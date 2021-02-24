@@ -1,11 +1,72 @@
 .top_menu {
     height: 50px;
-    border:1px solid black;
+    width:100%;
+    background: rgb(189, 187, 187);
+    opacity:0.7;    
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);   
+    margin-bottom: 20px;
+    margin-left:1px;
+ 
+  
 }
 
+.top_menu1 {
+    height: 50px;
+    width:100%;
+    background: rgb(189, 187, 187);
+    opacity:0.7;    
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);   
+    padding-left : 1px;
+    margin-left:5px;
+ 
+  
+}
+
+
+.top_menu1 table {
+
+    text-align: left;
+    
+    margin-left: 20px;
+   
+   
+}
+
+
+
+
+
 .bottom_tab_menu {
-    outline : 1px solid red;
-    height : 250px;
+  
+    height : 400px;
+
+    
+}
+
+.top_menu p {
+  
+    font-weight: bold;
+    font-size: 20px; 
+    margin-top : 10px;
+   
+    width: 100px;
+    display:flex;
+
+    
+
+}
+
+ .triangle-border1 {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-right: 1px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid #888787;
+    padding:0;
+    margin-top: 20px;
+    display:inline-block;
+
 }
 
 
@@ -14,19 +75,24 @@
 /*Data section*/
 
 .container {
-    margin-left: 10px;
+    
+    margin-top:-20px;
+    padding-top: 20px;
+    background-color: #888787;
+   
+    
+    
 }
 
 .top_tab_menu {
     
-    height: 500px;
+    height: 100%;
     margin: 0 auto;
 }
 
 
 .tablenav {
-    height: 50px;
-    border: 1px solid green;
+    height: 40px; 
 }
 
 .dropdown {
@@ -58,14 +124,7 @@
     
 
     background: rgba(247, 247, 247, 1);
-    background: -moz-linear-gradient(top, rgba(247, 247, 247, 1) 0%, rgba(247, 247, 247, 1) 40%, rgba(240, 240, 240, 1) 60%, rgba(240, 240, 240, 1) 82%, rgba(254, 254, 254, 1) 98%, rgba(209, 209, 209, 1) 100%);
-    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(247, 247, 247, 1)), color-stop(40%, rgba(247, 247, 247, 1)), color-stop(60%, rgba(240, 240, 240, 1)), color-stop(82%, rgba(240, 240, 240, 1)), color-stop(98%, rgba(254, 254, 254, 1)), color-stop(100%, rgba(209, 209, 209, 1)));
-    background: -webkit-linear-gradient(top, rgba(247, 247, 247, 1) 0%, rgba(247, 247, 247, 1) 40%, rgba(240, 240, 240, 1) 60%, rgba(240, 240, 240, 1) 82%, rgba(254, 254, 254, 1) 98%, rgba(209, 209, 209, 1) 100%);
-    background: -o-linear-gradient(top, rgba(247, 247, 247, 1) 0%, rgba(247, 247, 247, 1) 40%, rgba(240, 240, 240, 1) 60%, rgba(240, 240, 240, 1) 82%, rgba(254, 254, 254, 1) 98%, rgba(209, 209, 209, 1) 100%);
-    background: -ms-linear-gradient(top, rgba(247, 247, 247, 1) 0%, rgba(247, 247, 247, 1) 40%, rgba(240, 240, 240, 1) 60%, rgba(240, 240, 240, 1) 82%, rgba(254, 254, 254, 1) 98%, rgba(209, 209, 209, 1) 100%);
-    background: linear-gradient(to bottom, rgba(247, 247, 247, 1) 0%, rgba(247, 247, 247, 1) 40%, rgba(240, 240, 240, 1) 60%, rgba(240, 240, 240, 1) 82%, rgba(254, 254, 254, 1) 98%, rgba(209, 209, 209, 1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f7f7f7', endColorstr='#d1d1d1', GradientType=0);
-
+ 
 }
 
 #drop-content {
@@ -99,34 +158,60 @@
     
 }
 
+/*tabs***********************/
 
 ul.tabs {
     margin: 5px;
     padding: 0px;
     list-style: none;
-    border: 1px solid black;
+    
 }
 
-ul.tabs li {
+ul.tabs li{
     background: none;
     color: #222;
     display: inline-block;
     cursor: pointer;
     width: 200px;
     height : 30px;
-    padding-left: 5px;
+    padding-left: 10px;
     border-right: 10px solid transparent;
-    border-top-left-radius: 5px; 
+    border-top-left-radius: 5px;  
+    margin-bottom: -5px;
+
 }
 
-ul.tabs li {
-    background: rgb(218, 214, 214);
+ul.tabs li{
+   
     color: black;
     border-bottom:none;
     font:bold;
     border-top-right-radius: 100px;
     border-top-left-radius: 10px;
     border:1px solid grey;
+    background: rgb(201, 199, 199);
+    margin-right:-10px;
+    font-weight: bold;
+
+     background: rgba(226, 226, 226, 1);
+     background: -moz-linear-gradient(top, rgba(226, 226, 226, 1) 0%, rgba(171, 169, 171, 1) 95%, rgba(209, 209, 209, 1) 97%, rgba(254, 254, 254, 1) 100%);
+     background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(226, 226, 226, 1)), color-stop(95%, rgba(171, 169, 171, 1)), color-stop(97%, rgba(209, 209, 209, 1)), color-stop(100%, rgba(254, 254, 254, 1)));
+     background: -webkit-linear-gradient(top, rgba(226, 226, 226, 1) 0%, rgba(171, 169, 171, 1) 95%, rgba(209, 209, 209, 1) 97%, rgba(254, 254, 254, 1) 100%);
+
+    
+
+ 
+}
+
+ul.tabs li.current {
+    background: white;
+    color: black;
+    border:1px solid grey;
+    background-color: white;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 10px;
+    border-bottom:none;
+    font:bold;
 
     background: rgba(247, 247, 247, 1);
     background: -moz-linear-gradient(top, rgba(247, 247, 247, 1) 0%, rgba(254, 254, 254, 1) 6%, rgba(240, 240, 240, 1) 57%, rgba(240, 240, 240, 1) 67%, rgba(209, 209, 209, 1) 99%, rgba(254, 254, 254, 1) 100%);
@@ -135,32 +220,122 @@ ul.tabs li {
     background: -o-linear-gradient(top, rgba(247, 247, 247, 1) 0%, rgba(254, 254, 254, 1) 6%, rgba(240, 240, 240, 1) 57%, rgba(240, 240, 240, 1) 67%, rgba(209, 209, 209, 1) 99%, rgba(254, 254, 254, 1) 100%);
     background: -ms-linear-gradient(top, rgba(247, 247, 247, 1) 0%, rgba(254, 254, 254, 1) 6%, rgba(240, 240, 240, 1) 57%, rgba(240, 240, 240, 1) 67%, rgba(209, 209, 209, 1) 99%, rgba(254, 254, 254, 1) 100%);
     background: linear-gradient(to bottom, rgba(247, 247, 247, 1) 0%, rgba(254, 254, 254, 1) 6%, rgba(240, 240, 240, 1) 57%, rgba(240, 240, 240, 1) 67%, rgba(209, 209, 209, 1) 99%, rgba(254, 254, 254, 1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f7f7f7', endColorstr='#fefefe', GradientType=0);
-}
-
-ul.tabs li.current {
-    background: white;
-    color: black;
-    border:1px solid grey;
-    border-top-right-radius: 100px;
-    border-top-left-radius: 10px;
-    border-bottom:none;
-    font:bold;
 }
 
 .tab-content {
     display: none;
     background: rgb(255, 255, 255);
     padding: 5px;
-    border: 1px solid pink;    
+    height: 90%;
+    margin: 6px;  
+    
 }
 
 .tab-content.current {
     display: inherit;
+
+    
 }
 
 
+/***************under***********************************/
+   ul.tabs {
+        margin: 5px;
+        padding: 0px;
+        list-style: none;
+       
+    }
+  
+  .tab_under li {
+    background: none;
+    color: #222;
+    display: inline-block;
+    cursor: pointer;
+    width: 150px;
+    height : 30px;
+    padding-left: 5px;
+    border-right: 10px solid transparent;
+    border-top-left-radius: 5px; 
+    color: black;
+    font-weight: bold;
+    border:1px solid grey;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 10px;
+    border-bottom:none;
+    font:bold;
+    margin-right:-10px;
+    
+    background: rgba(226, 226, 226, 1);
+    background: -moz-linear-gradient(top, rgba(226, 226, 226, 1) 0%, rgba(171, 169, 171, 1) 95%, rgba(209, 209, 209, 1) 97%, rgba(254, 254, 254, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(226, 226, 226, 1)), color-stop(95%, rgba(171, 169, 171, 1)), color-stop(97%, rgba(209, 209, 209, 1)), color-stop(100%, rgba(254, 254, 254, 1)));
+    background: -webkit-linear-gradient(top, rgba(226, 226, 226, 1) 0%, rgba(171, 169, 171, 1) 95%, rgba(209, 209, 209, 1) 97%, rgba(254, 254, 254, 1) 100%);
+    
+    
+  }
+  
+  .tab_under li.on {
+    background: none;
+    color: #222;
+    display: inline-block;
+    cursor: pointer;
+    width: 150px;
+    height : 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-right: 10px solid 1px;
+    border-top-left-radius: 5px; 
+
+    background: rgba(247, 247, 247, 1);
+    background: -moz-linear-gradient(top, rgba(247, 247, 247, 1) 0%, rgba(254, 254, 254, 1) 6%, rgba(240, 240, 240, 1) 57%, rgba(240, 240, 240, 1) 67%, rgba(209, 209, 209, 1) 99%, rgba(254, 254, 254, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(247, 247, 247, 1)), color-stop(6%, rgba(254, 254, 254, 1)), color-stop(57%, rgba(240, 240, 240, 1)), color-stop(67%, rgba(240, 240, 240, 1)), color-stop(99%, rgba(209, 209, 209, 1)), color-stop(100%, rgba(254, 254, 254, 1)));
+    background: -webkit-linear-gradient(top, rgba(247, 247, 247, 1) 0%, rgba(254, 254, 254, 1) 6%, rgba(240, 240, 240, 1) 57%, rgba(240, 240, 240, 1) 67%, rgba(209, 209, 209, 1) 99%, rgba(254, 254, 254, 1) 100%);
+    background: -o-linear-gradient(top, rgba(247, 247, 247, 1) 0%, rgba(254, 254, 254, 1) 6%, rgba(240, 240, 240, 1) 57%, rgba(240, 240, 240, 1) 67%, rgba(209, 209, 209, 1) 99%, rgba(254, 254, 254, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(247, 247, 247, 1) 0%, rgba(254, 254, 254, 1) 6%, rgba(240, 240, 240, 1) 57%, rgba(240, 240, 240, 1) 67%, rgba(209, 209, 209, 1) 99%, rgba(254, 254, 254, 1) 100%);
+    background: linear-gradient(to bottom, rgba(247, 247, 247, 1) 0%, rgba(254, 254, 254, 1) 6%, rgba(240, 240, 240, 1) 57%, rgba(240, 240, 240, 1) 67%, rgba(209, 209, 209, 1) 99%, rgba(254, 254, 254, 1) 100%);
+}
+  
+  
+  .tab_cont {
+  
+    height:400px;
+  
+  }
+  
+  .tab_cont div {
+    
+    text-align: center;
+  }
+  
+  .tab_cont div.on {
+    display: block;
+  }
+
+   .tab_cont table{
+     
+       margin-bottom:20px;
+       height: 300px;
+       text-align:left;
+   }
+
+   .tab_cont td {
+        border: 1px solid red;
+   }
+
+   .tab_cont tr {
+       margin-bottom:10px;
+   }
+
+
+
 /* table */
+
+
+.tablesection {
+
+    width:100%;
+    height: 550px;
+ 
+}
 
 .tablereuslt {
     width:100%;
@@ -208,6 +383,13 @@ ul.tabs li.current {
 }
 
 
+
+
+
+
+
+
+
 /* arrow  https://velog.io/@korea_webclass/css-1*/
 /*https://happylikeit.tistory.com/4*/
 
@@ -224,12 +406,536 @@ ul.tabs li.current {
 }
 
 
+
+
 .arrow_down {
     width:15px;
     height:15px;
-    margin-top: 1.5px;
-    vertical-align: middle;
+    margin-top: 1.5px;    
     background: url("./img/angledown.svg") no-repeat top left;
-    display:float;
+
 
 }
+
+
+
+/* 가운데 버튼****/
+
+
+.button_section { 
+ 
+    height:80px;
+}
+
+.button_section table {
+    vertical-align: middle;
+    text-align: left;
+    height: 60px;
+}
+
+
+
+
+
+.button_section p {
+    display:inline-block;
+    margin-left : 5px;
+    margin-right : 5px;
+    margin-bottom : 5px;
+}
+
+.buttons_boxleft {
+    width:35px;
+    height:35px;
+    margin-left: 5px;
+    vertical-align: middle;
+    background: url("./img/boxleftarrow.svg") no-repeat top left;
+    display:inline-block;
+    opacity: 0.4;
+}
+.buttons_boxright {
+    width:35px;
+    height:35px;
+    margin-left: 5px;
+    vertical-align: middle;
+    background: url("./img/boxrightarrow.svg") no-repeat top left;
+    display:inline-block;
+    opacity: 0.4;
+
+
+}
+.buttons_star {
+    width:25px;
+    height:25px;
+    
+    vertical-align: middle;
+    background: url("./img/star.svg") no-repeat top left;
+    display:inline-block;
+    opacity: 0.4;
+
+}
+
+.longarrow_right{
+        
+    width:30px;
+    height:30px;
+    margin-left: 30px;  
+    background: url("./img/longarrowright.svg") no-repeat top left;
+  
+
+}
+
+.dpbutton1 {
+    width :140px;
+    height : 30px; 
+    font-size: 15px;
+    background-color: gray;
+    opacity: 0.5;
+    color: white;
+    text-align: left;
+    vertical-align: center;
+    border-radius: 5px;
+    border:1px solid none;
+    margin-left:10px;
+    margin-top:10px;  
+
+}
+
+.dpbutton2 {
+    width :170px;
+    height : 30px; 
+    font-size: 15px;
+    background-color: rgb(250, 245, 245);
+    color: black;
+    text-align: left;
+    border-radius: 5px;
+    border:1px solid black;
+    margin-left:10px;
+    margin-top:10px;
+    font-size : 20px;
+    padding-top : 2px; 
+    
+
+  /*일자 정렬 https://www.daleseo.com/css-align-right/*/
+    display:grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 0.1;    
+
+}
+
+
+.dpbutton3 {
+    width :170px;
+    height : 30px; 
+    font-size: 15px;
+    background-color: rgb(250, 245, 245);
+    color: black;
+    text-align: left;
+    border-radius: 5px;
+    border:1px solid black;
+     margin-top:10px;
+    font-size : 20px;
+    padding-top : 2px; 
+    
+
+  /*일자 정렬 https://www.daleseo.com/css-align-right/*/
+    display:grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 1fr 30px;    
+
+}
+
+
+.icon_flask{
+    width:20px;
+    height:20px;
+    margin-left: 1px;
+    margin-right : 5px;
+    vertical-align: middle;
+    background: url("./img/flask.svg") no-repeat top left;
+    display:inline-block;
+    opacity: 0.7;
+
+}
+
+.icon_monitoring {
+    width:20px;
+    height:20px;
+    margin-left: 1px;
+    margin-right : 5px;
+    vertical-align: middle;
+    background: url("./img/monitoring.svg") no-repeat top left;
+    display:inline-block;
+    opacity: 0.7;
+
+}
+
+.icon_tools {
+    width:20px;
+    height:20px;
+    margin-left: 1px;
+    margin-right : 5px;
+    vertical-align: middle;
+    background: url("./img/tools.svg") no-repeat top left;
+    display:inline-block;
+    opacity: 0.7;
+
+}
+
+.icon_caretrightarrow {
+    width:20px;
+    height:20px;
+    margin-left: 1px;
+    margin-right : 5px;
+    margin-bottom : 7px;
+    vertical-align: middle;
+    background: url("./img/caretrightarrow.svg") no-repeat top left;
+    display:inline-block;
+    opacity: 0.7;
+
+
+}
+
+.button_angledoubleright {
+    width:25px;
+    height:25px;
+    margin-left: 1px;
+    margin-right : 5px;
+    margin-bottom : 7px;
+    vertical-align: middle;
+    background: url("./img/angledoubleright.svg") no-repeat top left;
+    display:inline-block;
+    opacity: 0.7;
+
+}
+
+.button_angledoubleleft {
+    width:25px;
+    height:25px;
+    margin-left: 2px;
+    margin-right : 5px;
+    margin-bottom : 7px;
+    
+    background: url("./img/angledoulbeleft.svg") no-repeat top left;
+    
+    opacity: 0.7;
+}
+
+.button_arrowleft {
+    width:20px;
+    height:20px;
+    margin-left: 2px;
+    margin-right : 5px;
+    margin-top : 3px;   
+    background: url("./img/arrowleft.svg") no-repeat top left;    
+    opacity: 0.7;
+
+}
+
+.button_arrowright {
+    width:20px;
+    height:20px;
+    margin-left: 5px;
+    margin-right : 5px;
+    margin-top : 3px;  
+    background: url("./img/arrowright.svg") no-repeat top left;    
+    opacity: 0.7;
+
+}
+
+.button_squaredownarrow {
+
+    width:33px;
+    height:33px;
+    margin-left:120px;
+    vertical-align:top;
+   
+    background: url("./img/squaredownarrow.svg") no-repeat top left;  
+     opacity: 0.3;
+    display:float;
+    
+
+}
+
+.button_squaredownarrow1 {
+
+    width:33px;
+    height:33px;
+   
+    border-radius: 2px;
+    vertical-align:top;
+   
+    background: url("./img/squaredownarrow.svg") no-repeat top left;  
+    opacity: 0.8;
+    display:float;
+    
+
+}
+
+.icon_squarefull {
+    width:30px;
+    height:30px;
+    margin-left: 1px;
+    margin-right : 5px;
+    margin-bottom : 10px; 
+    margin-top : 10px;   
+    background: url("./img/squarefull.svg") no-repeat top left;
+    opacity: 0.7;
+    border-radius: 4px;
+}
+
+.icon_caretrightarrow1 {
+    width:20px;
+    height:20px;
+    margin-left: 30px;
+    margin-right : 5px;
+    margin-top : 15px;
+ 
+    background: url("./img/caretrightarrow.svg") no-repeat top left;
+    display:flex;
+    opacity: 0.7;
+ 
+
+}
+
+
+.dropdown_box1 {
+    width: 150px;
+    height: 18px;
+    border : 1px solid black;
+    border-radius: 5px;    
+    margin-left: 10px;
+    margin-right : 5px; 
+    padding-bottom : 32px;
+    background-color : white;
+
+
+
+  /*일자 정렬 https://www.daleseo.com/css-align-right/*/
+    display:grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr;
+    vertical-align:middle;
+  
+        
+}
+
+.dropdown_box2 {
+    width: 150px;
+    height: 30px;
+    border : 1px solid black;
+    border-radius: 5px;    
+    margin-left: 10px;
+    margin-right : 5px; 
+    padding-bottom : 32px;
+    background-color : white;
+
+}
+
+.dropdown_box3 {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-top : 10px;
+    
+    opacity: 0.5;
+    background-color: #e0e0e0;
+    padding-left: 2px;
+    padding-top: 2px;
+
+}
+
+.dropdown_box4 {
+    width :370px;
+    height : 33px;
+    font-size: 15px;
+    background-color : white;
+    color: black;
+    text-align: left;
+    vertical-align: center;
+    border-radius: 5px;
+    border:1px solid black;
+    margin-left:10px;
+  
+   
+}
+
+.dropdown_box5 {
+    width: 570px;
+    height: 33px;
+    font-size: 15px;
+    background-color: white;
+    color: black;
+    text-align: left;
+    vertical-align: center;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-left: 10px;
+
+
+}
+
+.dropdown_box6 {
+    width: 270px;
+    height: 120px;
+    font-size: 15px;
+    background-color: white;
+    color: black;
+    text-align: left;
+    vertical-align: center;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-left: 10px;
+
+
+}
+
+.dropdown_box7 {
+    width: 150px;
+    height: 30px;
+    border : 1px solid black;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right : 5px;
+    padding-top:5px;
+    padding-bottom : 32px;
+    color:white;
+  
+    
+    font-weight: bold;
+   background: rgba(226, 226, 226, 1);
+   background: -moz-linear-gradient(top, rgba(226, 226, 226, 1) 0%, rgba(171, 169, 171, 1) 95%, rgba(209, 209, 209, 1) 97%, rgba(254, 254, 254, 1) 100%);
+   background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(226, 226, 226, 1)), color-stop(95%, rgba(171, 169, 171, 1)), color-stop(97%, rgba(209, 209, 209, 1)), color-stop(100%, rgba(254, 254, 254, 1)));
+   background: -webkit-linear-gradient(top, rgba(226, 226, 226, 1) 0%, rgba(171, 169, 171, 1) 95%, rgba(209, 209, 209, 1) 97%, rgba(254, 254, 254, 1) 100%);
+    
+
+}
+
+
+
+
+#pstyle {
+  
+    text-align:middle;
+    margin-left:30px;
+    margin-top:-26px;
+
+}
+
+#pstyle1 {
+
+    text-align: middle;
+    margin-left: 40px;
+    margin-top: -26px;
+
+}
+
+.icon_logout {
+    width:30px;
+    height:30px;
+    margin-left: 5px;
+    background: url("./img/logout.svg") no-repeat top left;
+    opacity: 0.7;
+    
+}
+
+
+.button_print {
+    width:30px;
+    height:31px;
+    margin-left: 5px;
+    background: url("./img/print.svg") no-repeat top left;
+    
+    opacity: 0.7;
+    background-color: rgb(255, 255, 255);
+}
+
+.button_question {
+    width:30px;
+    height:30px;
+    margin-left: 5px;
+    background: url("./img/questioncircle.svg") no-repeat top left;
+    opacity: 0.7;
+}
+
+.button_squatri {
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(73, 155, 234, 1)), color-stop(66%, rgba(0, 123, 255, 1)), color-stop(100%, rgba(0, 123, 255, 1)));
+    background: -webkit-linear-gradient(top, rgba(73, 155, 234, 1) 0%, rgba(0, 123, 255, 1) 66%, rgba(0, 123, 255, 1) 100%);     
+    display: inline-block;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+    position: relative;
+    width: 100px;
+    color: white;
+    font-weight:  bold;
+    padding-top:2px;
+    }
+
+   .button_squatri:before {
+    border-bottom: 35px solid rgba(73, 155, 234, 1);
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    margin-left: 102px;
+    content: "";
+    height: 0;
+    left: 0;
+    position: absolute;
+    top:-2.6px;
+    width: 0;
+    transform: rotate(90deg);
+    }
+
+
+/* 
+    width: 0;
+    height: 0;
+    border-top: 4px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-left: 7px solid #888787;
+    padding:0;
+    margin-top: 3px; */
+    .icon_checkcirlce {
+         width:25px;
+         height:25px;
+         margin-left: 5px;
+         margin-top : 3px;
+         background: url("./img/checkcircle.svg") no-repeat top left;
+          opacity: 0.3;
+    }
+
+    .icon_asterisk {
+        width:25px;
+        height:25px;
+        margin-left: 5px;
+        margin-top : 3px;
+        background: url("./img/asterisk.svg") no-repeat top left;
+         opacity: 0.3;
+    }
+
+     .icon_searchglass {
+        width:25px;
+        height:25px;
+        margin-left: 5px;
+        margin-top : 3px;
+        background: url("./img/searchglass.svg") no-repeat top left;
+        opacity: 0.3;
+       
+        
+     }
+
+     .icon_cancel{
+        width:25px;
+        height:25px;
+        margin-left: 5px;
+        margin-top : 3px;
+        background: url("./img/cancel.svg") no-repeat top left;
+        opacity: 0.7;
+   
+     }
+
+
